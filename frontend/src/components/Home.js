@@ -106,7 +106,7 @@ const Home = () => {
       
     </Container>
     <footer style={{ backgroundColor: "grey", color: "white", padding: "20px" }}>
-    © 2023 InsureVerse. All rights reserved. Privacy Policy | Terms of Service
+    © 2023 FraxSurance. All rights reserved. Privacy Policy | Terms of Service
     </footer>
     </div>
   );
