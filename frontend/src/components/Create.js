@@ -264,8 +264,8 @@ const Create = ({ marketplace, nft, truflation, FRAX, account }) => {
       const totalAmount =
       Math.round(((insuranceCost + insuranceCost * inflationRate/100.0) / 365) * daysDifference);
       console.log(totalAmount);
-      const afterDiscount=totalAmount*(100-discount)/100;
-      setPrice(afterDiscount);
+      const afterDiscount= discount ? totalAmount*(100-discount)/100 : totalAmount;
+      setPrice(totalAmount);
     };
 
     calculateTotalAmount();
