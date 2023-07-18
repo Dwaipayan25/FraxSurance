@@ -92,7 +92,7 @@ export default function MyListedItems({ marketplace, nft, account,setid }) {
                         <Card.Title>{item.name}</Card.Title>
                         <Card.Text>{item.description}</Card.Text>
                     </Card.Body>
-                  <Card.Footer>{ethers.utils.formatEther(item.price)} VERSE</Card.Footer>
+                  <Card.Footer>{ethers.utils.formatEther(item.price)} FRAX</Card.Footer>
                 <Link to="/NFTDetails/:id">
                     <button onClick={()=>{setid(item.itemId)}} style={{backgroundColor:'greenyellow', paddingLeft:50 ,paddingRight:50}}>
                         {/* {item.itemId} */}
